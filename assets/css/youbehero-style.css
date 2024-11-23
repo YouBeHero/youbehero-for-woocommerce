@@ -1,0 +1,23 @@
+.youbehero-donation-widget {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #f9f9f9;
+}
+
+.youbehero-donation-widget h3 {
+    margin-bottom: 15px;
+}
+
+.youbehero-organisation {
+    margin-bottom: 15px;
+}
+
+.youbehero-organisation img {
+    max-width: 100px;
+    margin-right: 10px;
+}
+
+.youbehero-organisation p {
+    margin: 0 0 5px;
+}

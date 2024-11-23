@@ -1,0 +1,109 @@
+#youbehero-donation-widget-checkout {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-top: 20px;
+    background: #f9f9f9;
+    border-radius: 5px;
+}
+
+#youbehero-donation-widget-checkout h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.youbehero-organization {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.youbehero-organization img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.youbehero-donation-buttons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.youbehero-donation-button {
+    padding: 10px 20px;
+    border: 2px solid #007bff;
+    background: transparent;
+    color: #007bff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.youbehero-donation-button:hover, .youbehero-donation-button.selected {
+    background: #007bff;
+    color: #fff;
+}
+
+.youbehero-other-input {
+    margin-top: 15px;
+}
+
+#youbehero-custom-donation {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+
+.youbehero-donation-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    border: 2px solid #007bff;
+    background: transparent;
+    color: #007bff;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.youbehero-donation-btn:hover, .youbehero-donation-btn.selected {
+    background: #007bff;
+    color: #fff;
+}
+
+.youbehero-other-input {
+    margin-top: 15px;
+    display: none;
+}
+
+#youbehero-custom-donation {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Style the organization dropdown options */
+.youbehero-organization-option {
+    display: flex;
+    align-items: center;
+}
+
+.youbehero-organization-option img {
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.youbehero-organization-option span {
+    margin-left: 8px;
+}
+
+/* Adjust the select element width */
+#youbehero-organization-select {
+    width: 100%;
+}

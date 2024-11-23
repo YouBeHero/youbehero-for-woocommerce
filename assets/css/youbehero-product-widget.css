@@ -1,0 +1,29 @@
+.youbehero-donation-widget {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: #f9f9f9;
+}
+
+.youbehero-donation-widget .youbehero-icon {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+}
+
+.youbehero-donation-widget p {
+    margin: 0;
+    font-size: 14px;
+    color: #555;
+}
+
+/* For email compatibility */
+.woocommerce-email .youbehero-donation-widget {
+    border: none;
+    padding: 0;
+    margin: 10px 0;
+    background-color: transparent !important;
+}
